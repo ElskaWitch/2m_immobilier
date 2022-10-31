@@ -17,7 +17,7 @@ class HouseController extends Controller
      */
     public function index()
     {
-        $houses = House::orderBy('updated_at', 'desc')->paginate(10);
+        $houses = House::orderBy('updated_at', 'desc')->paginate(8);
         return view('pages.home', compact('houses'));
     }
 
@@ -41,9 +41,9 @@ class HouseController extends Controller
     {
         $request->validate([
             'image' => 'required|image|mimes:png,jpg,jpeg,jfif|max:2000',
-            'title' => 'required|min:5|max:180|string',
-            'description' => 'required|min:10|max:350|string',
-            'location' => 'required|min:5|max:180|string',
+            'title' => 'required|min:5|max:400|string',
+            'description' => 'required|min:10|max:2000|string',
+            'location' => 'required|min:5|max:300|string',
             'price' => 'required|min:2|max:15|string',
             'ref' => 'required|min:1|max:10|string'
         ]);
@@ -102,10 +102,10 @@ class HouseController extends Controller
         }
 
         $request->validate([
-            'title' => 'required|min:5|max:180|string',
-            'description' => 'required|min:10|max:350|string',
+            'title' => 'required|min:5|max:400|string',
+            'description' => 'required|min:10|max:2000|string',
             'image' => 'required|image|sometimes|mimes:png,jpg,jpeg,jfif|max:2000',
-            'location' => 'required|min:5|max:180|string',
+            'location' => 'required|min:5|max:300|string',
             'price' => 'required|min:2|max:15|string',
             'ref' => 'required|min:1|max:10|string'
         ]);

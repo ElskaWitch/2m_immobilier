@@ -16,6 +16,9 @@
         "vite": "^3.0.0"
     },
     "dependencies": {
-        "daisyui": "^2.36.1"
+        "daisyui": "^2.36.1",
+        "paginate": "^0.2.0",
+        "plugins": "^0.4.2",
+        "tailwind": "^4.0.0"
     }
 }

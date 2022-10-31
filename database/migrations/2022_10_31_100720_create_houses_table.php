@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('location');
             $table->string('title');
             $table->text('description');
-            $table->integer('price');
+            $table->string('price');
             $table->integer('ref');
             $table->timestamps();
         });
