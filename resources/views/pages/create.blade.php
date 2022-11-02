@@ -1,6 +1,6 @@
 <x-main-layout title="Create">
 		<div class="container">
-				<h2 class="text-center text-4xl py-10 font-semibold text-[#6d5ba1]">Nouveau bien immobilier</h2>
+				<h2 class="text-center text-4xl py-10 font-semibold text-black">Nouveau bien immobilier</h2>
 				<form action="{{ route('houses.store') }}" enctype="multipart/form-data" method="POST">
 						@csrf
 						<div class="px-96 space-y-5">
