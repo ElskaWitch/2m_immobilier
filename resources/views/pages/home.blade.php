@@ -14,7 +14,7 @@
 				</div>
 		</div>
 		{{-- section alerte email --}}
-		<div class="py-24 px-56">
+		<div class="pt-24 px-56">
 				@include('components.sections.Section-alerte-email')
 		</div>
 </x-main-layout>

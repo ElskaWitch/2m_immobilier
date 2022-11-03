@@ -14,10 +14,11 @@
 				<div class="dropdown dropdown-end">
 						<label class="{{ $styleLink }}" tabindex="0">Menu</label>
 						<ul class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 text-black" tabindex="0">
-								<li><a>Qui sommes nous ?</a></li>
-								<li><a>Estimation</a></li>
-								<li><a>Nos biens</a></li>
-								<li><a>Contact</a></li>
+								<li><a href="/">Acceuil</a></li>
+								<li><a href="pages.about">Qui sommes nous ?</a></li>
+								<li><a href="pages.estimation">Estimation</a></li>
+								<li><a href="pages.immobilier">Nos biens</a></li>
+								<li><a href="pages.contact">Contact</a></li>
 						</ul>
 				</div>
 				{{-- end menu --}}
