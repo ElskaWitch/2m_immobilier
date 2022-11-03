@@ -8,6 +8,8 @@
 		<meta content="width=device-width, initial-scale=1.0" name="viewport">
 		<meta content="ie=edge" http-equiv="X-UA-Compatible">
 		<title>2M Immobilier | {{ $title }}</title>
+		{{-- animate css --}}
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
 		{{-- favicon --}}
 		<link href="img/favicon.jpg" rel="icon" type="image/png" />
 		{{-- font awesome --}}
@@ -31,9 +33,9 @@
 <body>
 		@include('partials.navbar._nav')
 		<!-- hero -->
-		<div class=" bg-fixed py-24 bg-center " style="background-image: url('img/treport-hero1.jpg')">
+		<div class=" bg-fixed py-24 bg-center" style="background-image: url('img/treport-hero1.jpg')">
 				<div class="text-black text-center pb-64 pt-24 uppercase ">
-						<div class="bg-[#d3e0f42b] mx-96 py-5 rounded-tl-full rounded-br-full">
+						<div class="bg-[#d3e0f42b] mx-96 py-5 rounded-tl-full rounded-br-full animate__pulse">
 								<h2 class="text-7xl pb-10 font-semibold">2M Immobilier</h2>
 								<div class="text-5xl font-bold italic">
 										<p>Le Tréport</p>
