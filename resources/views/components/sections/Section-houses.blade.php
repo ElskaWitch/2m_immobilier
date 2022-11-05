@@ -9,7 +9,7 @@
 								<x-cards.Card-house :description="$house->description" :title="$house->title" :image="$house->image" :price="$house->price" :ref="$house->ref"/>
 						</a>
 				@empty
-						<p class="text-xl text-black font-semibold">Pas d'habitation actuellement</p>
+						<p class="text-xl text-white text-center font-semibold">Pas d'habitation actuellement</p>
 				@endforelse
 		</div>
 		<div class="py-5 px-6 ">

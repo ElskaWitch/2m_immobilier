@@ -33,7 +33,7 @@
 <body>
 		@include('partials.navbar._nav')
 		<!-- hero -->
-		<div class=" bg-fixed py-24 bg-center" style="background-image: url('img/treport-hero1.jpg')">
+		<div class=" bg-fixed py-24 bg-center bg-blue-200" style="background-image: url('img/treport-hero1.jpg')">
 				<div class="text-black text-center pb-64 pt-24 uppercase ">
 						<div class="bg-[#d3e0f42b] mx-96 py-5 rounded-tl-full rounded-br-full animate__pulse">
 								<h2 class="text-7xl pb-10 font-semibold">2M Immobilier</h2>

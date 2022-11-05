@@ -7,10 +7,10 @@
 		<div class="bg-white py-1">
 				@include('components.sections.Section-service')
 		</div>
-		{{-- section immobilier --}}
+		{{-- section house --}}
 		<div class="pt-24">
 				<div class="bg-[#000000]">
-						@include('components.sections.Section-immobilier')
+						@include('components.sections.Section-houses')
 				</div>
 		</div>
 		{{-- section alerte email --}}
