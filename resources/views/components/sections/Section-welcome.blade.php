@@ -1,10 +1,10 @@
 <div class="bg-black rounded-xl">
-		<div class="text-center text-white text-3xl font-bold uppercase pt-16">
+		<div class="text-center text-white text-xl md:text-3xl font-bold uppercase pt-16 px-5 md:px-0">
 				<h2>Vendre avec 2M IMMOBILIER c'est rendre votre bien unique</h2>
 		</div>
-		<div class="grid grid-cols-2 p-16 items-center">
-				<div class="text-white mr-28">
-						<div class="py-10">
+		<div class="md:grid grid-cols-2 p-16 items-center">
+				<div class="text-white md:mr-28">
+						<div class="pb-10 md:pb-0 md:py-10 ">
 								<p>Vous accompagner dans <br><span class="uppercase font-bold text-xl">VOTRE PROJET IMMOBILIER</span></p>
 						</div>
             <div class="pb-10">
@@ -23,7 +23,7 @@
               <p>Dès l’estimation, toute notre attention est concentrée sur votre projet de vente jusqu’à sa concrétisation.</p>
             </div>
 				</div>
-        <div>
+        <div class="pt-10 md:pt-0">
           <img src="img/treport.png" alt="treport">
         </div>
 		</div>

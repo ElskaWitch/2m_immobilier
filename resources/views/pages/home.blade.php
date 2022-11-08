@@ -1,6 +1,6 @@
 <x-main-layout title="Accueil">
 		{{-- section welcome --}}
-		<div class="py-24 px-64">
+		<div class="py-24 px-3 md:px-64">
 				@include('components.sections.Section-welcome')
 		</div>
 		{{-- section services --}}
@@ -14,7 +14,7 @@
 				</div>
 		</div>
 		{{-- section alerte email --}}
-		<div class="pt-24 px-56">
+		<div class="pt-24 md:px-56 px-5">
 				@include('components.sections.Section-alerte-email')
 		</div>
 </x-main-layout>
