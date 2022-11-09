@@ -1,10 +1,10 @@
 <x-main-layout title="Edit">
 		<div class="container">
-				<h2 class="text-center text-4xl py-10 font-semibold text-[#6d5ba1]">Modifier le bien immobilier</h2>
+				<h2 class="text-center text-xl md:text-4xl py-10 font-semibold text-black">Modifier le bien immobilier</h2>
 				<form action="{{ route('houses.update', $house->id) }}" enctype="multipart/form-data" method="POST">
 						@csrf
 						@method('PUT')
-						<div class="px-96 space-y-5">
+						<div class="px-3 md:px-96 space-y-5">
 								{{-- title --}}
 								<input class="block w-full rounded-xl border-gray-400" name="title" placeholder="Titre du bien immobilier"
 										type="text" value="{{ old('title', $house->title) }}">

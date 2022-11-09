@@ -13,7 +13,7 @@
 								</div>
 						@endguest
 						@auth
-								<div class=" space-x-4 flex items-center">
+								<div class="">
 										<x-btn-logout />
 								</div>
 						@endauth
