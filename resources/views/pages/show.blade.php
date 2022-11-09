@@ -1,10 +1,10 @@
 <x-main-layout :title="$house->title">
-	<div class=" md:px-24">
+	<div class=" md:px-72">
 		<div class="bg-black text-white text-center rounded-xl">
 				<h2 class="text-xl md:text-4xl py-10 font-semibold uppercase">{{ $house->title }}</h2>
 				<div class="px-10 md:px-0 md:grid place-items-center">
 						<img alt="{{ $house->title }}" class="rounded-xl w-72 md:w-96 " src="{{ asset('storage/' . $house->image) }}">
-						<p class="md:px-96 py-10">{!! nl2br(e($house->description)) !!}</p>
+						<p class="md:px-24 py-10">{!! nl2br(e($house->description)) !!}</p>
 						<p>Lieux : {!! nl2br(e($house->location)) !!}</p>
 						<p>Prix : {!! nl2br(e($house->price)) !!}€</p>
 						<p>réf : {!! nl2br(e($house->ref)) !!}</p>
