@@ -2,7 +2,7 @@
 		<div class="py-24 px-32">
 				@include('components.sections.Section-contact')
 		</div>
-    <div class="px-32">
+    <div class="px-72">
 				@include('components.sections.Section-map')
 		</div>
 		  <div class="px-32 pt-24">
