@@ -4,7 +4,7 @@
 						Formulaire <span class="uppercase">de contact</span>
 				</h2>
 		</div>
-		<form action="" class="text-center" method="POST">
+		<form action="" class="text-center px-3 md:px-0" method="POST">
 				@csrf
 				{{-- nom/prenom --}}
 				<div class="flex justify-center space-x-10 pb-10">
@@ -50,7 +50,7 @@
 						<button class="bg-white text-xl font-semibold px-3 py-1 rounded-xl text-black">Envoyer</button>
 				</div>
 		</form>
-		<div class="px-32 py-10">
+		<div class="px-3 md:px-32 py-10">
 				<p>
 						Les informations recueillies sur ce formulaire sont enregistrées dans un fichier informatisé par La Boite Immo
 						agissant comme Sous-traitant du traitement pour la gestion de la clientèle/prospects de l'Agence / du Réseau qui

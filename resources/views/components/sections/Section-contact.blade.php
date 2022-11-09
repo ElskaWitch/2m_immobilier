@@ -5,7 +5,7 @@
 		<div class="">
 				<img alt="estimation" src="img/service.jpg">
 		</div>
-		<div class="whitespace-pre-line text-xl pb-5">
+		<div class="whitespace-pre-line text-xl pb-5 px-3 md:px-0">
 				<p>
 						Une estimation de qualité pour vendre au bon prix. <br>
 						Nous nous rendons sur place pour échanger avec vous sur votre projet et faire le tour du bien. <br>
