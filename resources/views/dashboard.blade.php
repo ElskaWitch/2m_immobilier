@@ -14,7 +14,7 @@ $styleLink = 'bg-black px-3 py-1 rounded-xl hover:bg-blue-200 hover:text-black t
 						Dashboard</h1>
 				<div class="py-10 text-center space-x-5 ">
 						<a class=" {{ $styleLink }} " href=" {{ route('houses.create') }} ">Nouveau bien immobilier</a>
-						<a class="{{ $styleLink }} " href="/">Liste des biens immobilier</a>
+						<a class="{{ $styleLink }} " href="pages.immobilier">Liste des biens immobilier</a>
 				</div>
 		</div>
 </x-main-layout>

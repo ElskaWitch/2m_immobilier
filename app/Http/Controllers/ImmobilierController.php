@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Http\Requests\StoreHouseRequest;
 use App\Http\Requests\UpdateHouseRequest;
+use App\Models\House;
 
 class ImmobilierController extends Controller
 {
@@ -17,7 +18,7 @@ class ImmobilierController extends Controller
      */
     public function index()
     {
-        $houses = Immobilier::orderBy('updated_at', 'desc')->paginate(8);
+        $houses = House::orderBy('updated_at', 'desc')->paginate(8);
         return view('pages.immobilier', compact('houses'));
     }
 
@@ -71,7 +72,7 @@ class ImmobilierController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Immobilier $house) 
+    public function show(Immobilier $house)
     {
         return view('pages.immobilier', compact('house'));
     }
