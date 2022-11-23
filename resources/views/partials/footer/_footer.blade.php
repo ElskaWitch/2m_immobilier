@@ -2,7 +2,7 @@
 		$styleLink = 'bg-white text-black font-semibold px-3 py-1 rounded-xl hover:bg-blue-200 ';
 @endphp
 
-<div class="bg-black text-white md:px-16 py-4">
+<div class="bg-black text-white md:px-16 py-24">
 		<div class="md:flex justify-between text-center md:mx-80">
 				{{-- connexion --}}
 				<div class=" text-white font-bold">

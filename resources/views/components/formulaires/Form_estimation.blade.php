@@ -1,10 +1,10 @@
-<div class="bg-black text-white rounded-xl">
-		<div class="text-center text-2xl font-bold py-10">
+<div class="bg-black rounded-xl py-16">
+		<div class="text-center text-2xl font-bold py-10 text-white">
 				<h2>
 						Je souhaite <span class="uppercase">Faire estimer</span>
 				</h2>
 		</div>
-		<form action="" class="text-center" method="POST">
+		<form action="" class="text-center" method="GET">
 				@csrf
 				{{-- type --}}
 				<div class="px-3 md:px-0">
@@ -13,7 +13,7 @@
 				</div>
 				{{-- adresse/ville --}}
 				<div class="px-3 md:px-0">
-						<div class="text-center text-2xl font-bold py-10">
+						<div class="text-center text-2xl font-bold py-10 text-white">
 								<h2>
 										Je renseigne <span class="uppercase">l'adresse</span>
 								</h2>
@@ -31,7 +31,7 @@
 				</div>
 				{{-- coordoné --}}
 				<div class="px-3 md:px-0">
-						<div class="text-center text-2xl font-bold py-10">
+						<div class="text-center text-2xl font-bold py-10 text-white">
 								<h2>
 										Je renseigne <span class="uppercase">mes coordonnées</span>
 								</h2>
@@ -64,7 +64,7 @@
 				{{-- condition --}}
 				<div class="py-5 flex justify-center space-x-3 px-3 md:px-0">
 						<input checked="checked" class="checkbox" type="checkbox" />
-						<p>J’accepte les conditions d’utilisation des données
+						<p class="text-white">J’accepte les conditions d’utilisation des données
 								(*)* <br>
 								*champ obligatoire
 						</p>
@@ -74,7 +74,7 @@
 						<button class="bg-white text-xl font-semibold px-3 py-1 rounded-xl text-black">Envoyer</button>
 				</div>
 		</form>
-		<div class="px-3 md:px-32 py-10">
+		<div class="px-3 md:px-32 py-10 text-gray-500">
 				<p>
 						Les informations recueillies sur ce formulaire sont enregistrées dans un fichier informatisé par La Boite Immo
 						agissant comme Sous-traitant du traitement pour la gestion de la clientèle/prospects de l'Agence / du Réseau qui

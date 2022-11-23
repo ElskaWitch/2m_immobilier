@@ -5,7 +5,7 @@
 				</div>
 		</div>
 		<div class="pt-24 px-3 md:px-24">
-				<div class="bg-black text-white font-semibold text-center md:text-xl rounded-xl md:rounded-full whitespace-pre-line py-5 px-3 md:px-0 ">
+				<div class="bg-black text-white font-semibold text-center md:text-xl rounded-xl whitespace-pre-line px-3 md:px-0 py-16 ">
 						<p>La proximité est un élément de base 2M Immobilier. <br>
 								L'immobilier, c'est avant tout de l'humain. Nous nous attachons à comprendre chaque personne et chaque projet de
 								vie. <br>

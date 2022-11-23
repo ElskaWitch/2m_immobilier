@@ -2,7 +2,7 @@
 		$styleLink = 'bg-white text-black font-semibold px-3 py-1 rounded-xl hover:bg-blue-200 ';
 @endphp
 
-<nav class="bg-black text-white md:px-16 py-3 md:flex justify-between items-center ">
+<nav class="bg-black text-white md:px-16 py-7 md:flex justify-between items-center ">
 		<div class="animate__animated animate__fadeInLeft">
 				<a class="md:text-2xl px-2 md:px-0" href="/" id="logo">2M Immobilier</a>
 		</div>

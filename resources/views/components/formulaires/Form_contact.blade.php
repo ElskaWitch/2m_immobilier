@@ -1,10 +1,10 @@
-<div class="bg-black text-white rounded-xl">
-		<div class="text-center text-2xl font-bold py-10">
+<div class="bg-black  rounded-xl py-16">
+		<div class="text-center text-2xl font-bold py-10 text-white">
 				<h2>
 						Formulaire <span class="uppercase">de contact</span>
 				</h2>
 		</div>
-		<form action="" class="text-center px-3 md:px-0" method="POST">
+		<form action="" class="text-center px-3 md:px-0" method="GET">
 				@csrf
 				{{-- nom/prenom --}}
 				<div class="flex justify-center space-x-10 pb-10">
@@ -40,7 +40,7 @@
 				{{-- condition --}}
 				<div class="py-5 flex justify-center space-x-3">
 						<input checked="checked" class="checkbox" type="checkbox" />
-						<p>J’accepte les conditions d’utilisation des données
+						<p class="text-white">J’accepte les conditions d’utilisation des données
 								(*)* <br>
 								*champ obligatoire
 						</p>
@@ -50,7 +50,7 @@
 						<button class="bg-white text-xl font-semibold px-3 py-1 rounded-xl text-black">Envoyer</button>
 				</div>
 		</form>
-		<div class="px-3 md:px-32 py-10">
+		<div class="px-3 md:px-32 py-10 text-gray-500">
 				<p>
 						Les informations recueillies sur ce formulaire sont enregistrées dans un fichier informatisé par La Boite Immo
 						agissant comme Sous-traitant du traitement pour la gestion de la clientèle/prospects de l'Agence / du Réseau qui
