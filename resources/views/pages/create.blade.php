@@ -3,7 +3,7 @@
 				<h2 class="text-center md:text-4xl py-10 font-semibold text-black">Nouveau bien immobilier</h2>
 				<form action="{{ route('houses.store') }}" enctype="multipart/form-data" method="POST">
 						@csrf
-						<div class="px-3 md:px-96 space-y-5">
+						<div class="px-3 md:px-96 space-y-5 ">
 								{{-- title --}}
 								<input class="block w-full rounded-xl border-gray-400" name="title" placeholder="Titre du bien immobilier" type="text"
 										value="{{ old('title') }}">
@@ -32,7 +32,7 @@
 								</div>
 								{{-- envoyer --}}
 								<div class="text-center">
-										<button class="btn btn-primary" type="submit">Envoyer</button>
+										<button class="btn btn-black" type="submit">Envoyer</button>
 								</div>
 						</div>
 				</form>
